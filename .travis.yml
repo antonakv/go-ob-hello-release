@@ -6,3 +6,13 @@ go:
 script:
     - bash scripts/build_hello.sh
     - bash scripts/test_hello.sh
+
+deploy:
+ provider: releases
+ edge:true
+ skip_cleanup: true
+ api_key: 0d75cfe5f4ba46ec87da617b35c9244131db6978
+ file: hello
+ on:
+   repo: antonakv/go-ob-hello-release
+   tags: true
