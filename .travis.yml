@@ -8,10 +8,10 @@ script:
     - bash scripts/test_hello.sh
 
 deploy:
- provider: releases
- edge:true
- skip_cleanup: true
- file: hello
- on:
-   repo: antonakv/go-ob-hello-release
-   tags: true
+    provider: releases
+    edge:true
+    skip_cleanup: true
+    file: hello
+    on:
+        repo: antonakv/go-ob-hello-release
+        tags: true
