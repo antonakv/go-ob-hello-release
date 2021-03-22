@@ -18,13 +18,13 @@ Tested on Mac OS X.
 - Clone git repository. 
 
 ```bash
-git clone https://github.com/antonakv/go-ob-hello-travis.git
+git clone https://github.com/antonakv/go-ob-hello-release.git
 ```
 
 Expected command output looks like this:
 
 ```bash
-Cloning into 'go-ob-hello-travis'...
+Cloning into 'go-ob-hello-release'...
 remote: Enumerating objects: 12, done.
 remote: Counting objects: 100% (12/12), done.
 remote: Compressing objects: 100% (12/12), done.
@@ -33,10 +33,10 @@ Receiving objects: 100% (12/12), done.
 Resolving deltas: 100% (1/1), done.
 ```
 
-- Change folder to go-ob-hello-travis
+- Change folder to go-ob-hello-release
 
 ```bash
-cd go-ob-hello-travis
+cd go-ob-hello-release
 ```
 
 ## Provisioning
@@ -54,7 +54,7 @@ Bringing machine 'default' up with 'virtualbox' provider...
 ==> default: Importing base box 'aakulov/bionic64'...
 ==> default: Matching MAC address for NAT networking...
 ==> default: Checking if box 'aakulov/bionic64' version '21.03.02' is up to date...
-==> default: Setting the name of the VM: go-ob-hello-travis_default_1615908031711_66315
+==> default: Setting the name of the VM: go-ob-hello-release_default_1615908031711_66315
 ==> default: Clearing any previously set network interfaces...
 ==> default: Preparing network interfaces based on configuration...
     default: Adapter 1: nat
@@ -75,7 +75,7 @@ Bringing machine 'default' up with 'virtualbox' provider...
 ==> default: Machine booted and ready!
 ==> default: Checking for guest additions in VM...
 ==> default: Mounting shared folders...
-    default: /vagrant => /Users/aakulov/Documents/Development/Hashicorp/go-ob-hello-travis
+    default: /vagrant => /Users/aakulov/Documents/Development/Hashicorp/go-ob-hello-release
 ==> default: Running provisioner: file...
     default: hello.go => $HOME/hello.go
 ==> default: Running provisioner: shell...
