@@ -1,4 +1,4 @@
-# golang - travis test that check for hello (travis run green build)
+# travis setup release compiled binary
 ## Intro
 This manual is dedicated to run vagrant box with program that prints hello. 
 
